@@ -1,0 +1,27 @@
+*{
+    margin:0;
+}
+body{
+    background-image: url("../imgs/acai3.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    height:200px;
+    justify-content: space-evenly;
+}
+.navBar{
+    border:solid;
+    display: flex;
+    justify-content: center;
+}
